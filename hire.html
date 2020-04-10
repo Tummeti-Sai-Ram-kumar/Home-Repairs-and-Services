@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <title>Home Repairs</title>
+    <link rel="stylesheet" href="style5.css"> 
+ </head>
+ <body>
+    <center><h1>Book Appointment</h1></center>
+    <div>
+        <form action="/action_page.php">
+          <label> Name</label><br>
+          <input type="text" id="name"  placeholder="For Ex : Ram" required><br>
+          <br>
+          <label>Email</label><br>
+          <input type="text" id="Email" placeholder="For Ex : Ram@gmail.com" required><br>
+          <br>
+          <label>Appointment Type</label><br>
+            <select name ="Work"name="Work" required>
+            <option value="Electrician">Electrician</option>
+            <option value="Carpenter">Carpenter</option>
+            <option value="Painter">Painter</option>
+            <option value="Plumber">Plumber</option>
+        
+         </select>
+         <br> <br>
+         <label>Appointment On</label><br>
+         <input type="date" required> <br> <br>
+         <label>Select Time</label><br>
+         <input type="time" required> <br> <br>
+         <label>Location</label><br>
+         <textarea rows="2" cols="100">
+
+
+         </textarea><br> <br>
+         <label>Mobile Number</label><br>
+         <input type ="tel" required><br><br>
+          <center><input type="submit" value="Book"></center>
+          </form>
+    </div>
+ </body>
+ </html>

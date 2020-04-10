@@ -1,0 +1,32 @@
+html
+{
+   background-image: url(http://generalrepairservice.biz/wp-content/uploads/2013/10/maintenancebackground2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1{
+    text-align: center;
+    color: white;
+}
+input[type=submit]{
+    background-color:white;
+  }
+  input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  div{
+      color : white;
+      font-family: sans-serif;
+      font-size: 15px;
+  }
+  
+  h2{
+      color : white;
+  }
